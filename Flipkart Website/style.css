@@ -1,0 +1,322 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    height: 70px;
+    background-color: rgb(13, 13, 71);
+    display: flex;
+    justify-content: center;
+}
+
+.nav-logo {
+    display: contents;
+}
+
+.nav-items {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+#seller {
+    text-decoration: none;
+    color: rgb(220, 211, 211);
+}
+
+#contact {
+    text-decoration: none;
+    color: rgb(220, 211, 211);
+}
+
+#about {
+    text-decoration: none;
+    color: rgb(220, 211, 211);
+}
+
+#navbar-input {
+    height: 27px;
+    width: 250px;
+    border: 2px solid black;
+    background-color: rgb(220, 211, 211);
+    border-radius: 5px;
+}
+
+#nav-search {
+    height: 27px;
+    width: 100px;
+    padding-left: 0px;
+    margin-left: 0px;
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#nav-user {
+    margin-right: 0px;
+    color: white;
+    cursor: pointer;
+}
+
+#nav-settings {
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+#nav-cart {
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.items-list {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(245, 245, 248);
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(226, 226, 237);
+    border: none;
+    margin-top: 5px;
+    border-radius: 8px;
+    font-weight: 600;
+    color: rgb(19, 19, 94);
+}
+
+.item-info {
+    text-align: center;
+}
+
+.item-img {
+    height: 80%;
+    background-size: cover;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    cursor: pointer;
+}
+
+.item-img1 {
+    background-image: url("https://images.unsplash.com/photo-1590779033100-9f60a05a013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80");
+}
+
+.item-img2 {
+    background-image: url("https://images.unsplash.com/photo-1616410011236-7a42121dd981?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80");
+}
+
+.item-img3 {
+    background-image: url("https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80");
+}
+
+.item-img4 {
+    background-image: url("https://images.unsplash.com/photo-1550009158-9ebf69173e03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=901&q=80");
+}
+
+.item-img5 {
+    background-image: url("https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=658&q=80");
+}
+
+.item-img6 {
+    background-image: url("https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80");
+}
+
+.item-img7 {
+    background-image: url("https://images.unsplash.com/photo-1480504612934-8170966f69e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+}
+
+.item-img8 {
+    background-image: url("https://images.unsplash.com/photo-1608755727748-dfa2e44f255b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+}
+
+.item-img9 {
+    background-image: url("https://images.unsplash.com/photo-1556012018-50c5c0da73bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+}
+
+.item-img10 {
+    background-image: url("https://images.unsplash.com/photo-1686914687902-e58579225e84?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+}
+
+.big-offer {
+    height: 350px;
+    background-image: url("https://b2c-admin-storage.s3-ap-southeast-1.amazonaws.com/CMS/Prod/995x360rr.jpg");
+    background-size: cover;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.big-offer:hover {
+    background-image: url("https://images.fonearena.com/blog/wp-content/uploads/2023/03/iPhone-14-yellow-pre-booking.jpg");
+    background-size: cover;
+    transition: ease-in-out 3s;
+}
+
+.bank-ads {
+    height: 150px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-image: url("https://www.axisbank.com/images/default-source/festive-offers/axis-electronics-1920-360.jpg");
+    background-size: cover;
+}
+
+.top-offers {
+    height: 350px;
+    background-color: rgb(186, 197, 214);
+    margin: 5px 5px 5px 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.offer-box {
+    height: 300px;
+    width: 450px;
+    background-color: rgb(226, 226, 237);
+    border: none;
+    border-radius: 8px;
+    margin: 0px 3px 3px 5px;
+    color: rgb(19, 19, 94);
+}
+
+.top-offers p {
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 3px;
+}
+
+.top-offers button {
+    font-size: 18px;
+    width: 80px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: 1px solid black;
+    cursor: pointer;
+    color: rgb(19, 19, 94);
+    background-color: rgb(193, 193, 219);
+}
+
+.top-offer-img1 {
+    height: 80%;
+    background-image: url("https://plus.unsplash.com/premium_photo-1679943423706-570c6462f9a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=405&q=80");
+    background-size: cover;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.top-offer-img2 {
+    height: 80%;
+    background-image: url("https://images.unsplash.com/photo-1497296805880-3b37686c87ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzR8fGN1cnZlZCUyMG1vbml0b3J8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60");
+    background-size: contain;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.top-offer-img3 {
+    height: 80%;
+    background-image: url("https://images.unsplash.com/photo-1625708458528-802ec79b1ed8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2F0ZXIlMjBib3R0bGVzfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60");
+    background-size: cover;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.offer-box p {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.random-offers {
+    height: 200px;
+    background-color: rgb(238, 211, 216);
+    border-radius: 5px;
+    margin: 3px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.random-img1 {
+    height: 85%;
+    width: 280px;
+    background-image: url("https://www.cleartrip.com/offers/sites/default/files/styles/destination-top/public/ct_axis_offer_page.png?itok=tZDIdUn_");
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.random-img2 {
+    height: 85%;
+    width: 280px;
+    background-image: url("https://storiesflistgv2.blob.core.windows.net/stories/2022/03/CBC-2mn-FKS.jpg");
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.random-img3 {
+    height: 85%;
+    width: 280px;
+    background-image: url("https://images.moneycontrol.com/static-mcnews/2022/09/flipkart-big-billion-sale.jpg?impolicy=website&width=770&height=431");
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.random-img4 {
+    height: 85%;
+    width: 280px;
+    background-image: url("https://img.paisawapas.com/ovz3vew9pw/2022/09/08181318/Flipkart-PaisaWapas-App-1.jpg");
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.foot-info {
+    height: 250px;
+    background-color: rgb(18, 18, 104);
+    color: rgba(237, 225, 225, 0.909);
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 5px;
+}
+
+ul p {
+    font-weight: 700;
+    margin-top: 9px;
+}
+
+.address {
+    font-size: 0.85rem;
+    font-weight: 400;
+}
+
+hr {
+    height: 200px;
+    margin-top: 10px;
+}
+
+.footer-last {
+    height: 80px;
+    background-color: rgb(18, 18, 104);
+    color: rgba(237, 225, 225, 0.909);
+    font-weight: 600;
+    margin: 0px 5px 5px 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
