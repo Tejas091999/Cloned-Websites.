@@ -1,0 +1,542 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.first-bar {
+    height: 30px;
+    background-color: rgb(248, 243, 244);
+    display: flex;
+}
+
+.jordan-logo {
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 68px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.first-bar a {
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.find-store {
+    margin-left: 1100px;
+}
+
+.help {
+    margin-left: 5px;
+}
+
+.join {
+    margin-left: 5px;
+}
+
+.sign {
+    margin-left: 5px;
+}
+
+.first-bar hr {
+    margin-left: 8px;
+    margin-top: 7px;
+    height: 16px;
+}
+
+.navbar-first {
+    height: 75px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.nike-logo {
+    height: 65px;
+    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.new {
+    margin-left: 280px;
+}
+
+.navbar-first a {
+    padding-left: 38px;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.navbar-first a:hover {
+    text-decoration: underline;
+}
+
+.navbar-first input {
+    margin-left: 170px;
+    height: 35px;
+    border-radius: 14px;
+    border: 1px solid whitesmoke;
+    background-color: rgb(194, 203, 203);
+    text-align: center;
+}
+
+.navbar-first i {
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.navbar-ads {
+    height: 90px;
+    background-color: rgb(248, 243, 244);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.download {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.content-img1 img {
+    background-size: cover;
+    height: 720px;
+    width: 1400px;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.moto {
+    text-align: center;
+}
+
+.moto h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.moto button {
+    margin-top: 15px;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.content-heading2 {
+    height: 40px;
+    background-color: white;
+    margin-top: 15px;
+    display: flex;
+}
+
+.content-heading2 p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 85px;
+}
+
+.content-heading2 i {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.content-container2 {
+    height: 600px;
+    background-color: rgb(255, 253, 253);
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pink-card1 img {
+    height: 480px;
+    width: 415px;
+    background-size: cover;
+    border-radius: 7px;
+}
+
+.pink-card2 img {
+    height: 480px;
+    width: 415px;
+    background-size: cover;
+    border-radius: 7px;
+}
+
+.pink-card3 img {
+    height: 480px;
+    width: 415px;
+    background-size: cover;
+    border-radius: 7px;
+}
+
+.content-heading3 p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 85px;
+    margin-top: 10px;
+}
+
+.content-container3 {
+    height: 800px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 7px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.feature1 {
+    margin-top: 5px;
+    height: 780px;
+    width: 650px;
+    background-image: url("https://images.unsplash.com/photo-1590556409324-aa1d726e5c3c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80");
+    background-size: cover;
+    border-radius: 7px;
+}
+
+.feature1 p {
+    font-size: 25px;
+    color: white;
+    margin-top: 710px;
+    margin-left: 5px;
+}
+
+.feature1 button {
+    margin-left: 5px;
+    font-size: 18px;
+    width: 60px;
+    border-radius: 7px;
+}
+
+.feature2 {
+    margin-top: 5px;
+    height: 780px;
+    width: 650px;
+    background-image: url("https://images.unsplash.com/photo-1549476464-37392f717541?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80");
+    background-size: cover;
+    border-radius: 7px;
+}
+
+.feature2 p {
+    font-size: 25px;
+    color: white;
+    margin-top: 710px;
+    margin-left: 5px;
+}
+
+.feature2 button {
+    margin-left: 5px;
+    font-size: 18px;
+    width: 60px;
+    border-radius: 7px;
+}
+
+.content-heading4 p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 85px;
+    margin-top: 10px;
+}
+
+.content-img2 img {
+    background-size: cover;
+    height: 720px;
+    width: 1400px;
+    padding: 0px 5px 0px 5px;
+    margin-top: 5px;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+
+.content-heading5 p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 85px;
+    margin-top: 10px;
+}
+
+.content-container5 {
+    height: 800px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 7px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.latest1 {
+    margin-top: 5px;
+    height: 780px;
+    width: 650px;
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_706,c_limit/c6981bb7-63a5-46c0-818f-32feb3d1a311/nike-just-do-it.png");
+    background-size: cover;
+    border-radius: 7px;
+}
+
+.latest1 p {
+    font-size: 20px;
+    color: black;
+    margin-top: 710px;
+    margin-left: 5px;
+}
+
+.latest1 button {
+    margin-left: 5px;
+    font-size: 18px;
+    width: 90px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+}
+
+.latest2 {
+    margin-top: 5px;
+    height: 780px;
+    width: 650px;
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_706,c_limit/8ac5e8ef-7d26-4053-9a76-23c219cbf85d/nike-just-do-it.png");
+    background-size: cover;
+    border-radius: 7px;
+}
+
+.latest2 p {
+    font-size: 25px;
+    color: white;
+    margin-top: 710px;
+    margin-left: 5px;
+}
+
+.latest2 button {
+    margin-left: 5px;
+    font-size: 18px;
+    width: 90px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+}
+
+.content-container6 {
+    height: 600px;
+    background-color: rgb(255, 253, 253);
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content-heading6 p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 85px;
+    margin-top: 25px;
+}
+
+.iconic {
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.iconic img {
+    border-radius: 5px;
+    width: 300px;
+}
+
+.content-container7 {
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 7px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.men {
+    margin-top: 5px;
+    height: 500px;
+    width: 400px;
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_540,c_limit/69ded6b2-4b32-4f76-9dd0-2d5235a04953/nike-just-do-it.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+}
+
+.men button {
+    margin-left: 5px;
+    margin-top: 350px;
+    font-size: 18px;
+    width: 90px;
+    border-radius: 9px;
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.women {
+    margin-top: 5px;
+    height: 500px;
+    width: 400px;
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_540,c_limit/1c8b3b45-5c46-418e-8c62-37fc65eca37c/nike-just-do-it.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+}
+
+.women button {
+    margin-left: 5px;
+    margin-top: 350px;
+    font-size: 18px;
+    width: 90px;
+    border-radius: 9px;
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.kids {
+    margin-top: 5px;
+    height: 500px;
+    width: 400px;
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_540,c_limit/70a7b831-bc34-4273-9790-6775c56667c0/nike-just-do-it.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+}
+
+.kids button {
+    margin-left: 5px;
+    margin-top: 350px;
+    font-size: 18px;
+    width: 90px;
+    border: none;
+    border-radius: 9px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.types-container {
+    height: 300px;
+    background-color: white;
+    margin: 0px 40px 0px 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.types-container p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.types-container a {
+    margin-top: 5px;
+    display: list-item;
+    list-style: none;
+}
+
+.footer1 {
+    height: 300px;
+    background-color: black;
+    color: rgb(195, 184, 184);
+    display: flex;
+}
+
+.footer1 ul {
+    margin-top: 5px;
+}
+
+.footer1 li {
+    margin-left: 95px;
+    list-style: none;
+    margin-top: 8px;
+    font-size: 13px;
+}
+
+.footer1 p {
+    margin-left: 95px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.bright {
+    color: white;
+}
+
+#first-icon {
+    margin-left: 650px;
+}
+
+.footer1 i {
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.ending {
+    height: 20px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.ending p {
+    color: white;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.ending i {
+    color: white;
+    margin-left: 95px;
+    margin-bottom: 5px;
+}
+
+.ending small {
+    color: rgb(195, 184, 184);
+    margin-bottom: 5px;
+    margin-left: 4px;
+}
+
+.guide {
+    margin-left: 410px;
+}
+
+.ending a {
+    color: rgb(195, 184, 184);
+    font-size: 15px;
+    margin-bottom: 5px;
+    padding-left: 55px;
+}
