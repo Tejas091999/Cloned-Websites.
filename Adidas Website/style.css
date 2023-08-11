@@ -101,3 +101,146 @@
     width: 110px;
     border-radius: 5px;
 }
+.second{
+    margin-top: 0px;
+    height: 400px;
+    display: flex;
+}
+.yezzy{
+    width: 30%;
+    background-color:white;
+    text-align: center;
+}
+.yezzy p{
+    font-size: 70px;
+    font-weight: 500;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 30%;
+}
+.yezzy small{
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.yezzy button{
+    margin-top: 5px;
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: white;
+}
+.items1{
+    width: 70%;
+    background-color:white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.items1 img{
+    height: 210px;
+    width: 300px;
+    background-size: cover;
+}
+.popular{
+    height: 300px;
+    background-color: white;
+}
+.popular h2{
+    margin-left: 180px;
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+.popular a{
+    font-size: 50px;
+    margin-top: 95px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    padding-left: 180px;
+    padding-top: 45px;
+}
+#samba{
+    margin-left: 1px;
+}
+#bagpack{
+    margin-left: 1px;
+}
+#bag1{
+    margin-left: 110px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.who h2{
+    margin-left: 15px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+.gender{
+    display: flex;
+    justify-content: space-evenly;
+}
+.gender img{
+    height: 580px;
+    width: 470px;
+    background-size: contain;
+    border-radius: 5px;
+}
+.gender1{
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+}
+#men1{
+    margin-left: 15px;
+}
+#women1{
+    margin-left: 450px;
+}
+#kids1{
+    margin-left: 410px;
+}
+.arrivals{
+    height: 50px;
+    margin-top: 40px;
+}
+#new{
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+}
+#best{
+    height: 40px;
+    width: 150px;
+    background-color: white;
+    color: black;
+}
+.collection{
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.offers{
+    margin-top: 40px;
+    height: 490px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.offers img{
+    height: 350px;
+}
+.offers p{
+    margin-bottom: 2px;
+}
+.info{
+    height: 500px;
+    margin-top: 15px;
+    background-color: pink;
+    display: flex;
+}
