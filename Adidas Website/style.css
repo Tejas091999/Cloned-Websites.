@@ -244,3 +244,89 @@
     background-color: pink;
     display: flex;
 }
+
+.info1 h3 {
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.info1 p {
+    font-weight: 400;
+}
+
+.member {
+    height: 100px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.member h2 {
+    font-weight: 600;
+}
+
+.member button {
+    margin-left: 15px;
+    height: 40px;
+    width: 180px;
+    background-color: black;
+    color: white;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    background-color: rgb(251, 254, 255);
+}
+
+.footer1 li {
+    list-style: none;
+}
+
+.footer1 p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#sports {
+    margin-top: 20px;
+}
+
+#collection {
+    margin-top: 44px;
+}
+
+.company1 {
+    margin-bottom: 60px;
+}
+
+#support {
+    margin-top: 24px;
+}
+
+.last {
+    height: 80px;
+    background-color: rgb(57, 55, 55);
+    color: white;
+}
+
+.last1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.last p {
+    margin-left: 30px;
+    font-size: 14px;
+    margin-top: 7px;
+}
+
+.last2 {
+    text-align: center;
+    background-color: rgb(57, 55, 55);
+    color: white;
+}
