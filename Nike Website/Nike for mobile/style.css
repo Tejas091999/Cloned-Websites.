@@ -1,0 +1,522 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width:550px) {
+    .first {
+        height: 50px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .first img {
+        padding-left: 5px;
+        height: 100%;
+        width: 65px;
+    }
+
+    .first nav {
+        height: 100%;
+
+    }
+
+    .navbar i {
+        padding-top: 15px;
+        padding-left: 14px;
+        padding-right: 8px;
+        font-size: 20px;
+    }
+
+    .second {
+        height: 50px;
+        background-color: rgb(224, 216, 216);
+        text-align: center;
+    }
+
+    .second h4 {
+        font-weight: 700;
+        padding-top: 5px;
+    }
+
+    .second p {
+        font-size: 12px;
+    }
+
+    .third {
+        height: 150px;
+        width: 95%;
+        background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/w_1167,c_limit/d8ae4bab-e246-45d6-9e1a-7537fe70f5e7/nike-just-do-it.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left: 10px;
+    }
+
+    .fourth {
+        height: 150px;
+        background-color: white;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+    .fourth p {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .fourth h3 {
+        font-size: 20px;
+    }
+
+    .fourth button {
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        margin-top: 6px;
+        border: none;
+        width: 60px;
+    }
+
+    .fifth {
+        height: 30px;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+    .fifth h5 {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .fifth p {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .sixth {
+        height: 360px;
+        width: 95%;
+        background-image: url("https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.5/w_383,c_limit/30f8062f-0f8e-4fb5-9d32-1da71f6dd8e8/nikecourt-legacy-next-nature-shoes-m5FZ0S.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+    .sixth p {
+        padding-top: 300px;
+        font-weight: 500
+    }
+
+    .seventh {
+        height: 30px;
+        background-color: white;
+        margin-top: 20px;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+    .seventh h5 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .eight {
+        height: 460px;
+        width: 95%;
+        background-color: pink;
+        margin: 4px 6px 0px 6px;
+        background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/h_500,c_limit/1d0c1c41-6640-4a84-aa89-c3a7744447df/nike-just-do-it.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .eight p {
+        padding-top: 380px;
+        font-weight: 400;
+        padding-left: 5px;
+    }
+
+    .eight small {
+        font-size: 20px;
+        font-weight: 600;
+        padding-left: 5px;
+    }
+
+    .eight button {
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        margin: 3px 0px 0px 5px;
+        border: none;
+        width: 80px;
+        height: 30px;
+    }
+
+    .nine {
+        height: 460px;
+        width: 95%;
+        background-color: pink;
+        margin: 6px 6px 0px 6px;
+        background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/h_500,c_limit/c3faeb3b-9779-47ad-b003-0ff4aab9e257/nike-just-do-it.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .nine p {
+        padding-top: 380px;
+        font-weight: 400;
+        padding-left: 5px;
+    }
+
+    .nine small {
+        font-size: 20px;
+        font-weight: 600;
+        padding-left: 5px;
+    }
+
+    .nine button {
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        margin: 3px 0px 0px 5px;
+        border: none;
+        width: 50px;
+        height: 20px;
+    }
+
+    .ten {
+        height: 30px;
+        background-color: white;
+        margin-top: 20px;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+    .ten h5 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .eleven {
+        height: 460px;
+        width: 95%;
+        background-color: pink;
+        margin: 6px 6px 0px 6px;
+        background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/h_500,c_limit/9a37f94a-2986-4b49-8626-9ee6fd812057/nike-just-do-it.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .eleven p {
+        padding-top: 400px;
+        font-weight: 500;
+        font-size: 20px;
+        color: white;
+        margin-left: 5px;
+    }
+
+    .eleven button {
+        background-color: white;
+        color: black;
+        width: 50px;
+        height: 30px;
+        border-radius: 10px;
+        margin-left: 5px;
+        border: none;
+    }
+
+    .twelve {
+        height: 490px;
+        width: 95%;
+        background-color: pink;
+        margin: 6px 6px 0px 6px;
+        background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/h_500,c_limit/afc785ff-a19c-449b-99e6-0a5bb6debea2/nike-just-do-it.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .twelve p {
+        padding-top: 380px;
+        color: white;
+        padding-left: 5px;
+    }
+
+    .twelve small {
+        font-weight: 600;
+        font-size: 20px;
+        color: white;
+        padding-left: 5px;
+    }
+
+    .twelve button {
+        background-color: white;
+        color: black;
+        width: 50px;
+        height: 30px;
+        border-radius: 10px;
+        margin-left: 5px;
+        border: none;
+    }
+
+    .thirteen {
+        height: 30px;
+        background-color: white;
+        margin-top: 20px;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+    .thirteen h5 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .fourtheen {
+        height: 490px;
+        width: 95%;
+        background-color: pink;
+        margin: 6px 6px 0px 6px;
+        background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/w_323,c_limit/f8003c9e-18a2-4c02-bda4-6d6957e9f8de/nike-just-do-it.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .fiftheen {
+        height: 180px;
+        background-color: white;
+        margin: 10px 6px 0px 6px;
+    }
+
+    .fiftheen p {
+        padding-left: 5px;
+        font-size: 20px;
+    }
+
+    .fiftheen h4 {
+        padding-left: 5px;
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .fiftheen small {
+        padding-left: 5px;
+    }
+
+    .fiftheen button {
+        background-color: black;
+        color: white;
+        border-radius: 8px;
+        margin-left: 5px;
+        margin-top: 5px;
+        width: 50px;
+        height: 30px;
+        border: none;
+    }
+
+    .sixteen {
+        height: 30px;
+        background-color: white;
+        margin-top: 20px;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+    .sixteen h5 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .seventeen {
+        height: 490px;
+        width: 95%;
+        background-color: pink;
+        margin: 6px 6px 0px 6px;
+        background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/h_500,c_limit/d320bfb2-9b9a-453c-96f4-bad7e12fdffe/nike-just-do-it.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .seventeen button {
+        background-color: white;
+        color: black;
+        height: 30px;
+        width: 70px;
+        margin-top: 450px;
+        margin-left: 5px;
+        border-radius: 8px;
+        border: none;
+    }
+
+    .eighteen {
+        height: 490px;
+        width: 95%;
+        background-color: pink;
+        margin: 6px 6px 0px 6px;
+        background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/h_500,c_limit/93842735-1e82-42c3-a6d8-b02ab4d537b1/nike-just-do-it.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .eighteen button {
+        background-color: white;
+        color: black;
+        height: 30px;
+        width: 70px;
+        margin-top: 450px;
+        margin-left: 5px;
+        border-radius: 8px;
+        border: none;
+    }
+
+    .nineteen {
+        height: 490px;
+        width: 95%;
+        background-color: pink;
+        margin: 6px 6px 0px 6px;
+        background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/h_500,c_limit/bb390638-9487-4fa9-a976-1b2a7eb37257/nike-just-do-it.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .nineteen button {
+        background-color: white;
+        color: black;
+        height: 30px;
+        width: 70px;
+        margin-top: 450px;
+        margin-left: 5px;
+        border-radius: 8px;
+        border: none;
+    }
+
+    .icon {
+        height: 30px;
+        font-size: 20px;
+        margin: 10px 5px 0px 5px;
+        background-color: white;
+    }
+
+    .shoes {
+        height: 30px;
+        font-size: 20px;
+        margin: 8px 5px 0px 5px;
+        background-color: white;
+    }
+
+    .clothing {
+        height: 30px;
+        font-size: 20px;
+        margin: 8px 5px 0px 5px;
+        background-color: white;
+    }
+
+    .kids {
+        height: 30px;
+        font-size: 20px;
+        margin: 8px 5px 0px 5px;
+        background-color: white;
+    }
+
+    .footer1 {
+        height: 110px;
+        margin-top: 20px;
+        background-color: black;
+    }
+
+    .footer1 p {
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+        padding-left: 5px;
+        padding-top: 5px;
+    }
+
+    .get {
+        height: 40px;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .get p {
+        font-size: 15px;
+        margin-left: 5px;
+        margin-top: 10px;
+        font-weight: 500;
+        color: white;
+    }
+
+    .get i {
+        color: white;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+
+    .about {
+        height: 40px;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about p {
+        font-size: 15px;
+        margin-left: 5px;
+        margin-top: 10px;
+        font-weight: 500;
+        color: white;
+    }
+
+    .about i {
+        color: white;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+
+    .social {
+        height: 40px;
+        background-color: black;
+        display: flex;
+    }
+
+    .social i {
+        color: white;
+        font-size: 20px;
+        margin-top: 5px;
+        padding-left: 15px;
+    }
+
+    .location {
+        height: 25px;
+        background-color: black;
+        display: flex;
+    }
+
+    .location i {
+        color: white;
+        margin-left: 5px;
+        margin-top: 5px;
+        font-size: 12px;
+    }
+
+    .location p {
+        color: white;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    .rights {
+        height: 220px;
+        padding-top: 15px;
+        padding-left: 5px;
+        background-color: black;
+        color: grey;
+    }
+}
