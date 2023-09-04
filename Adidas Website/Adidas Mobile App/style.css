@@ -1,0 +1,240 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width:550px) {
+    .first {
+        height: 50px;
+        font-size: 14px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        color: white;
+    }
+
+    .second {
+        height: 50px;
+        background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .second i {
+        font-size: 20px;
+    }
+
+    .second img {
+        height: 80%;
+        width: 60px;
+    }
+
+    .third {
+        height: 50px;
+        padding-top: 14px;
+        background-color: rgb(20, 100, 197);
+        color: white;
+        font-size: 14px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .fourth {
+        height: 240px;
+        background-image: url("https://exchange4media.gumlet.io/news-photo/127823-adi.jpg?w=400&dpr=2.6");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: black;
+    }
+
+    .fourth button {
+        margin-top: 50%;
+        margin-left: 78%;
+    }
+
+    .fifth {
+        margin-top: 5px;
+        height: 235px;
+        width: 100%;
+        background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enIN/Images/ca_ss21_outlet_iwp_men_ftw_05212021-d_tcm209-687765.jpg");
+    }
+
+    #men {
+        margin-top: 170px;
+    }
+
+    .fifth button {
+        height: 25px;
+        margin-left: 5px;
+        border-radius: 4px;
+    }
+
+    .sixth {
+        height: 30px;
+        margin-top: 4px;
+        background-color: white;
+    }
+
+    .sixth p {
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 5px;
+    }
+
+    .seventh {
+        height: 180px;
+        background-color: white;
+    }
+
+    .seventh p {
+        margin-top: 5px;
+        font-size: 23px;
+        font-weight: 600;
+        margin-left: 5px;
+    }
+
+    .seventh hr {
+        width: 360px;
+        color: black;
+        font-size: 4px;
+        margin-left: 4px
+    }
+
+    .seventh hr:hover {
+        border: 5px solid black;
+    }
+
+    .eighth {
+        height: 65px;
+        margin-top: 15px;
+        margin-left: 5px;
+        background-color: white;
+    }
+
+    .eighth p {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .nine {
+        height: 600px;
+        background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_800,w_800/Visual_nav_tiles_March_2023_Mobile_800x900px_2_WOMENS_DUAL_0c1db65f7c.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .nine p {
+        color: black;
+        padding-top: 600px;
+        padding-left: 5px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .ten {
+        height: 450px;
+        margin-top: 70px;
+        margin-left: 5px;
+        margin-right: 5px;
+        background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_300,w_300/in_fw23_manunited_raffle_hp_tc_m_2f1c084796.jpg");
+        background-size: cover;
+    }
+
+    .ten p {
+        padding-top: 450px;
+        font-weight: 700;
+    }
+
+    .ten button {
+        border: 2px solid black;
+        border-radius: 2px;
+        margin-top: 2px;
+        font-size: 15px;
+        background-color: black;
+        color: white;
+    }
+
+    .eleven {
+        height: 1200px;
+        background-color: rgb(201, 196, 173);
+        margin-top: 120px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .eleven h4 {
+        padding-top: 15px;
+    }
+
+    .eleven p {
+        padding-top: 10px;
+    }
+
+    .twelve {
+        height: 50px;
+        background-color: black;
+        color: white;
+        font-weight: 700;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .thirteen {
+        height: 140px;
+        background-color: rgb(244, 229, 56);
+    }
+
+    .thirteen h4 {
+        text-align: center;
+        padding-top: 15px;
+        font-size: 25px;
+    }
+
+    .thirteen button {
+        margin-left: 130px;
+        margin-top: 5px;
+        background-color: black;
+        color: white;
+    }
+
+    .fourteen {
+        height: 140px;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .fourteen p {
+        padding-top: 10px;
+        font-size: 15px;
+    }
+
+    .fifteen {
+        height: 140px;
+        background-color: rgb(39, 34, 34);
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+    }
+
+    .fifteen p {
+        margin-top: 30px;
+        font-size: 15px;
+    }
+
+    .sixteen {
+        height: 30px;
+        background-color: rgb(39, 34, 34);
+        color: white;
+        font-size: 15px;
+        text-align: center;
+    }
+}
