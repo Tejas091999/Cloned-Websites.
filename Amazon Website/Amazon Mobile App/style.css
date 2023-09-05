@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media (max-width:550px) {
+    .first{
+        height: 30px;
+        width: 100%;
+        display: flex;
+        background-color: black;
+        color: white;
+    }
+    #menu{
+        margin-top: 5px;
+        color: white;
+    }
+  .first img{
+    height: 25px;
+    margin-top: 4px;
+    margin-left: 5px;
+    width: 45px;
+  }
+  .first p{
+    font-size: 10px;
+    margin-top: 8px;
+    margin-left: 210px;
+    font-weight: 700;
+  }
+  #profile{
+    margin-top: 7px;
+    margin-left: 10px;
+    font-size: 12px;
+  }
+  #cart{
+    margin-top: 7px;
+    margin-left: 10px;
+    font-size: 12px;
+  }
+  .second{
+    height: 30px;
+    background-color: black;
+  }
+  .second input{
+    width: 95%;
+    margin-left: 3px;
+    margin-top: 3px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  .second input:hover{
+    border: 3px solid rgb(217, 187, 38);
+  }
+  .third{
+    height: 40px;
+    background-color: black;
+    color: white;
+  }
+  .third p{
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 5px;
+  }
+  .third small{
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 5px;
+  }
+  .fourth {
+    height:30px;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    display:flex;
+}
+.fourth i{
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.fourth p{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+}
