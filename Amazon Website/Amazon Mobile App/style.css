@@ -82,4 +82,199 @@
     margin-top: 5px;
     font-size: 12px;
 }
+    
+.fifth{
+    height: 85px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fifth img {
+    margin-top: 5px;
+    height: 60px;
+    width: 40px;
+}
+.fifth p{
+    font-size: 10px;
+    font-weight: 600;
+}
+.sixth{
+    height: 220px;
+    background-image: url("https://m.media-amazon.com/images/G/31/img21/Wireless/tsabikhi/AJFP/mobile_sobePlatinumBrand900x514._SX828_QL85_.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.seventh{
+    height: 200px;
+    background-color: rgb(238, 214, 218);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#inner1{
+    height: 90px;
+    width: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#inner1 h6{
+    font-size: 6px;
+}
+#inner1 img{
+    height: 22px;
+    margin-top: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#inner1 p{
+    font-size: 4px;
+    font-weight: 600;
+}
+#inner2{
+    height: 90px;
+    width: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#inner2 h6{
+    font-size: 6px;
+}
+#inner2 img{
+    height: 22px;
+    margin-top: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#inner2 p{
+    font-size: 4px;
+    font-weight: 600;
+}
+#inner3{
+    height: 90px;
+    width: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#inner3 h6{
+    font-size: 6px;
+}
+#inner3 img{
+    height: 22px;
+    margin-top: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#inner3 p{
+    font-size: 4px;
+    font-weight: 600;
+}
+#inner4{
+    height: 90px;
+    width: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#inner4 h6{
+    font-size: 6px;
+}
+#inner4 img{
+    height: 22px;
+    margin-top: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#inner4 p{
+    font-size: 4px;
+    font-weight: 600;
+}
+#inner5{
+    height: 90px;
+    width: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#inner5 h6{
+    font-size: 6px;
+}
+#inner5 img{
+    height: 22px;
+    margin-top: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#inner5 p{
+    font-size: 4px;
+    font-weight: 600;
+}
+#inner6{
+    height: 90px;
+    width: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#inner6 h6{
+    font-size: 6px;
+}
+#inner6 img{
+    height: 22px;
+    margin-top: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#inner6 p{
+    font-size: 4px;
+    font-weight: 600;
+}
+#inner7{
+    height: 90px;
+    width: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#inner7 h6{
+    font-size: 6px;
+}
+#inner7 img{
+    height: 22px;
+    margin-top: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#inner7 p{
+    font-size: 4px;
+    font-weight: 600;
+}
+
+.eighth {
+    height: 200px;
+    background-color: white;
+}
+.eighth h5{
+    padding-left: 5px;
+    margin-top: 10px;
+}
+.eighth1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.eighth1 img{
+    height: 60px;
+    width: 85px;
+}
 }
