@@ -277,4 +277,159 @@
     height: 60px;
     width: 85px;
 }
+    .ninth{
+    height: 110px;
+    background-color: white;
+}
+.ninth h5{
+    padding-left: 5px;
+    margin-top: 10px;
+}
+.ninth1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.ninth1 img{
+    height: 80px;
+    width: 85px;
+}
+.ten {
+    height: 110px;
+    background-color: white;
+}
+.ten h5{
+    padding-left: 5px;
+    margin-top: 10px;
+}
+.ten1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.ten1 img{
+    height: 80px;
+    width: 85px;
+}
+.eleven{
+    height: 110px;
+    background-color: white;
+}
+.eleven h5{
+    padding-left: 5px;
+    margin-top: 10px;
+}
+.eleven1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.eleven1 img{
+    height: 80px;
+    width: 85px;
+}
+.twelve {
+    height: 110px;
+    background-color: white;
+}
+.twelve h5{
+    padding-left: 5px;
+    margin-top: 10px;
+}
+.twelve1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.twelve1 img{
+    height: 80px;
+    width: 85px;
+}
+.thirteen{
+    height: 130px;
+    background-color: rgb(240, 229, 231);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.thirteen1{
+    height: 110px;
+    width: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.thirteen1 h5{
+    font-size: 8px;
+}
+.thirteen1 p{
+    font-size: 5px;
+    color: black;
+}
+.thirteen1 img {
+    height: 30px;
+    width: 30px;
+    margin-top: 4px;
+    background-size:contain ;
+}
+.thirteen2{
+    height: 110px;
+    width: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.thirteen2 h5{
+    font-size: 8px;
+}
+.thirteen2 p{
+    font-size: 5px;
+    color: black;
+}
+.thirteen2 img {
+    height: 30px;
+    width: 30px;
+    margin-top: 4px;
+    background-size:contain ;
+}
+.thirteen3{
+    height: 110px;
+    width: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.thirteen3 h5{
+    font-size: 8px;
+}
+.thirteen3 p{
+    font-size: 5px;
+    color: black;
+}
+.thirteen3 img {
+    height: 30px;
+    width: 30px;
+    margin-top: 4px;
+    background-size:contain ;
+}
+.thirteen4{
+    height: 110px;
+    width: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.thirteen4 h5{
+    font-size: 8px;
+}
+.thirteen4 p{
+    font-size: 5px;
+    color: black;
+}
+.thirteen4 img {
+    height: 30px;
+    width: 30px;
+    margin-top: 4px;
+    background-size:contain ;
+}
 }
